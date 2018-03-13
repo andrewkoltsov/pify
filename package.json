@@ -47,5 +47,8 @@
     "pinkie-promise": "^2.0.0",
     "v8-natives": "^1.0.0",
     "xo": "*"
+  },
+  "dependencies": {
+    "es6-promise": "*"
   }
 }

@@ -58,7 +58,7 @@ module.exports = function (obj, opts) {
 	opts = Object.assign({
 		exclude: [/.+(Sync|Stream)$/],
 		errorFirst: true,
-		promiseModule: Promise
+		promiseModule: require('es6-promise').Promise
 	}, opts);
 
 	var filter = function filter(key) {
